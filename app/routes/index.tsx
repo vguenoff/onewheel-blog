@@ -63,7 +63,7 @@ export default function Index() {
                     </div>
                 </div>
 
-                <div className="mx-auto mt-16 max-w-7xl text-center">
+                <div className="max-w-7x1 mx-auto mt-16 text-center">
                     <Link
                         to="posts"
                         className="text-x1 text-blue-600 underline"
