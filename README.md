@@ -1,3 +1,10 @@
+# Notes
+
+-   run `npx prisma db push` to update the local sqlLite database to match the
+    schema that we specify in our schema.prisma file
+-   then we need to seed the db with some posts through updating the seed script
+    then run `npx prisma db seed`
+
 # Remix Indie Stack
 
 ![The Remix Indie Stack](https://repository-images.githubusercontent.com/465928257/a241fa49-bd4d-485a-a2a5-5cb8e4ee0abf)
