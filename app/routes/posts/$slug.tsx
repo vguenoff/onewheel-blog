@@ -1,9 +1,10 @@
 import { useLoaderData } from '@remix-run/react'
-import type { LoaderArgs } from '@remix-run/node'
 import { json } from '@remix-run/node'
-import { getPost } from '~/models/post.server'
 import { marked } from 'marked'
 import invariant from 'tiny-invariant'
+
+import type { LoaderArgs } from '@remix-run/node'
+import { getPost } from '~/models/post.server'
 
 export const loader = async ({ params }: LoaderArgs) => {
     const { slug } = params
